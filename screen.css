@@ -1,1 +1,91 @@
-/* Add screen styles below */
+html{
+ background-color:#343434;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #343434;
+    padding: 20px;
+}
+
+header{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h2{
+    color: white;
+    margin: 0 20px 0 20px;
+    padding: 0 20px 0 20px;
+}
+
+header h1{
+    text-wrap: balance;
+}
+
+img.rings{
+    width: 100px;
+    height: 100px;
+}
+
+.usa{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
+    background-color: cadetblue;
+}
+
+.text{
+    background-color: cadetblue;
+}
+
+.japan{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
+}
+
+.sweden{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
+    background-color: cadetblue;
+}
+
+.science{
+    width: 150px;
+    height: 197px;
+}
+
+.active{
+    width: 150px;
+    height: 197px;
+}
+
+.active:hover{
+    animation: Pulse 1s infinite;
+    cursor: pointer;
+}
+
+@keyframes Pulse{
+    0%{
+        transform: scale(.95);
+    }
+    70%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(.95);
+    }
+}
+
+.flags{
+    width: 175px;
+    height: 98px;
+    align-self: end;
+}
